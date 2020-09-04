@@ -7,9 +7,9 @@ public class PromotionEx {
 		System.out.println(intValue);
 //		byteValue = intValue;
 
-		char charValue = '가';
+		char charValue = 0;
 		intValue = charValue;	//int <- char
-		System.out.println("가의 유니코드 : " + intValue);
+		System.out.println("媛��쓽 �쑀�땲肄붾뱶 : " + intValue);
 
 		intValue = 200;
 		double doubleValue = intValue;	//double <- int
